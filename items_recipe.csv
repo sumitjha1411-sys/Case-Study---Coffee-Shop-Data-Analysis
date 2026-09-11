@@ -1,0 +1,62 @@
+item_id,recipe_id,item_name,item_cat,item_size,item_price,row_id,ing_id,quantity,receipe_ing_id
+It001,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45,2,ING002,130,HDR-CAP-MD-ING002
+It001,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45,1,ING001,8,HDR-CAP-MD-ING001
+It002,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75,4,ING002,180,HDR-CAP-LG-ING002
+It002,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75,3,ING001,10,HDR-CAP-LG-ING001
+It003,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45,6,ING002,130,HDR-LAT-MD-ING002
+It003,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45,5,ING001,8,HDR-LAT-MD-ING001
+It004,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75,8,ING002,180,HDR-LAT-LG-ING002
+It004,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75,7,ING001,10,HDR-LAT-LG-ING001
+It005,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15,10,ING002,160,HDR-FLT-ING002
+It005,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15,9,ING001,8,HDR-FLT-ING001
+It006,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20,13,ING009,20,HDR-CRM-MD-ING009
+It006,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20,12,ING002,120,HDR-CRM-MD-ING002
+It006,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20,11,ING001,8,HDR-CRM-MD-ING001
+It007,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60,16,ING009,30,HDR-CRM-LG-ING009
+It007,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60,15,ING002,160,HDR-CRM-LG-ING002
+It007,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60,14,ING001,10,HDR-CRM-LG-ING001
+It008,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15,17,ING001,8,HDR-ESP-ING001
+It009,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00,20,ING007,20,HDR-MOC-MD-ING007
+It009,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00,19,ING002,120,HDR-MOC-MD-ING002
+It009,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00,18,ING001,8,HDR-MOC-MD-ING001
+It010,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60,23,ING007,30,HDR-MOC-LG-ING007
+It010,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60,22,ING002,160,HDR-MOC-LG-ING002
+It010,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60,21,ING001,10,HDR-MOC-LG-ING001
+It011,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50,26,ING008,20,HDR-WMO-MD-ING008
+It011,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50,25,ING002,120,HDR-WMO-MD-ING002
+It011,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50,24,ING001,8,HDR-WMO-MD-ING001
+It012,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70,29,ING008,30,HDR-WMO-LG-ING008
+It012,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70,28,ING002,160,HDR-WMO-LG-ING002
+It012,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70,27,ING001,10,HDR-WMO-LG-ING001
+It013,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20,33,ING005,30,HDR-HCH-MD-ING005
+It013,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20,32,ING013,20,HDR-HCH-MD-ING013
+It013,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20,31,ING012,25,HDR-HCH-MD-ING012
+It013,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20,30,ING002,130,HDR-HCH-MD-ING002
+It014,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60,37,ING005,40,HDR-HCH-LG-ING005
+It014,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60,36,ING013,30,HDR-HCH-LG-ING013
+It014,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60,35,ING012,35,HDR-HCH-LG-ING012
+It014,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60,34,ING002,180,HDR-HCH-LG-ING002
+It015,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45,39,ING002,130,CDR-CCF-MD-ING002
+It015,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45,38,ING001,8,CDR-CCF-MD-ING001
+It016,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75,41,ING002,180,CDR-CCF-LG-ING002
+It016,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75,40,ING001,10,CDR-CCF-LG-ING001
+It017,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00,44,ING007,20,CDR-CMO-MD-ING007
+It017,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00,43,ING002,120,CDR-CMO-MD-ING002
+It017,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00,42,ING001,8,CDR-CMO-MD-ING001
+It018,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60,47,ING007,30,CDR-CMO-LG-ING007
+It018,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60,46,ING002,160,CDR-CMO-LG-ING002
+It018,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60,45,ING001,10,CDR-CMO-LG-ING001
+It019,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25,49,ING010,20,CDR-ICT-MD-ING010
+It019,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25,48,ING017,10,CDR-ICT-MD-ING017
+It020,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55,51,ING010,25,CDR-ICT-LG-ING010
+It020,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55,50,ING016,15,CDR-ICT-LG-ING016
+It021,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35,53,ING010,30,CDR-LMN-MD-ING010
+It021,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35,52,ING014,1,CDR-LMN-MD-ING014
+It022,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75,55,ING010,40,CDR-LMN-LG-ING010
+It022,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75,54,ING014,1,CDR-LMN-LG-ING014
+It023,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60,58,ING003,20,SNK-SHC-ING003
+It023,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60,57,ING015,50,SNK-SHC-ING015
+It023,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60,56,ING011,1,SNK-SHC-ING011
+It024,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50,61,ING004,20,SNK-SSM-ING004
+It024,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50,60,ING016,50,SNK-SSM-ING016
+It024,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50,59,ING011,1,SNK-SSM-ING011

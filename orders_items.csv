@@ -1,0 +1,522 @@
+row_id,order_id,created_at,item_id,quantity,cust_name,in_or_out,recipe_id,item_name,item_cat,item_size,item_price
+1,ORD001,"2024-02-12 07:04:19",It008,1,Alex,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+2,ORD002,"2024-02-12 07:09:38",It014,1,Jordan,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+3,ORD003,"2024-02-12 07:14:29",It008,1,Taylor,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+4,ORD004,"2024-02-12 07:18:39",It019,1,Casey,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+5,ORD005,"2024-02-12 07:23:44",It024,1,Jamie,out,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+6,ORD006,"2024-02-12 07:28:20",It001,1,Morgan,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+7,ORD006,"2024-02-12 07:28:20",It016,1,Morgan,in,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+8,ORD007,"2024-02-12 07:33:58",It005,1,Riley,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+9,ORD007,"2024-02-12 07:33:58",It020,1,Riley,,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+10,ORD008,"2024-02-12 07:39:02",It006,1,Cameron,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+11,ORD008,"2024-02-12 07:39:01",It018,1,Cameron,,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+12,ORD009,"2024-02-12 07:44:02",It023,1,Quinn,out,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+13,ORD009,"2024-02-12 07:44:03",It011,1,Quinn,,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+14,ORD010,"2024-02-12 07:49:04",It024,1,Peyton,out,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+15,ORD010,"2024-02-12 07:49:05",It014,1,Peyton,,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+16,ORD011,"2024-02-12 07:53:06",It003,1,Brooke,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+17,ORD012,"2024-02-12 07:58:07",It007,1,Blake,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+18,ORD013,"2024-02-12 08:03:08",It009,1,Charlie,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+19,ORD013,"2024-02-12 08:03:09",It021,1,Charlie,,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+20,ORD014,"2024-02-12 08:08:10",It012,1,Dakota,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+21,ORD014,"2024-02-12 08:08:11",It022,1,Dakota,,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+22,ORD015,"2024-02-12 08:12:12",It004,1,Emerson,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+23,ORD016,"2024-02-12 08:17:21",It002,1,Finley,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+24,ORD017,"2024-02-12 08:22:34",It001,1,Harper,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+25,ORD018,"2024-02-12 08:26:07",It014,1,Jordan,out,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+26,ORD019,"2024-02-12 08:31:45",It011,1,Kendall,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+27,ORD020,"2024-02-12 08:36:59",It017,1,Logan,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+28,ORD020,"2024-02-12 08:36:59",It020,1,Logan,,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+29,ORD021,"2024-02-12 08:41:38",It005,1,Morgan,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+30,ORD022,"2024-02-12 08:45:02",It006,1,Parker,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+31,ORD022,"2024-02-12 08:45:24",It014,1,Peyton,,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+32,ORD023,"2024-02-12 08:50:11",It008,1,Alex,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+33,ORD024,"2024-02-12 08:55:53",It016,1,Jordan,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+34,ORD025,"2024-02-12 09:00:46",It006,1,Taylor,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+35,ORD026,"2024-02-12 09:04:25",It019,1,Casey,in,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+36,ORD027,"2024-02-12 09:09:47",It009,1,Jamie,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+37,ORD028,"2024-02-12 09:14:32",It001,1,Morgan,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+38,ORD028,"2024-02-12 09:14:32",It016,1,Morgan,,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+39,ORD029,"2024-02-12 09:19:11",It005,1,Riley,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+40,ORD029,"2024-02-12 09:19:11",It020,1,Riley,,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+41,ORD029,"2024-02-12 09:19:11",It012,1,Riley,,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+42,ORD030,"2024-02-12 09:35:06",It004,1,Jordan,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+43,ORD031,"2024-02-12 09:48:39",It021,1,Harper,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+44,ORD032,"2024-02-12 10:02:18",It007,1,Casey,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+45,ORD033,"2024-02-12 10:17:45",It010,1,Riley,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+46,ORD034,"2024-02-12 10:33:22",It017,1,Alex,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+47,ORD035,"2024-02-12 10:50:09",It009,1,Jamie,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+48,ORD036,"2024-02-12 11:08:56",It018,1,Taylor,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+49,ORD037,"2024-02-12 11:27:34",It005,1,Quinn,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+50,ORD037,"2024-02-12 11:27:34",It002,1,Quinn,,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+51,ORD038,"2024-02-12 12:08:22",It015,1,Peyton,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+52,ORD038,"2024-02-12 12:08:22",It003,1,Peyton,,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+53,ORD038,"2024-02-12 12:08:22",It016,1,Peyton,,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+54,ORD039,"2024-02-12 12:10:12",It005,1,Riley,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+55,ORD039,"2024-02-12 12:10:12",It020,1,Riley,,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+56,ORD040,"2024-02-12 12:11:03",It006,1,Cameron,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+57,ORD040,"2024-02-12 12:11:03",It018,1,Cameron,,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+58,ORD041,"2024-02-12 12:16:09",It023,1,Quinn,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+59,ORD041,"2024-02-12 12:16:09",It011,1,Quinn,,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+60,ORD041,"2024-02-12 12:16:09",It011,1,Quinn,,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+61,ORD042,"2024-02-12 12:18:14",It004,1,Taylor,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+62,ORD043,"2024-02-12 12:21:27",It022,1,Jamie,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+63,ORD044,"2024-02-12 12:23:39",It018,1,Riley,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+64,ORD045,"2024-02-12 12:26:05",It017,1,Alex,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+65,ORD046,"2024-02-12 12:29:17",It009,1,Casey,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+66,ORD047,"2024-02-12 12:32:29",It009,1,Brooke,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+67,ORD048,"2024-02-12 12:35:33",It012,1,Jordan,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+68,ORD049,"2024-02-12 12:38:46",It005,1,Peyton,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+69,ORD050,"2024-02-12 12:41:58",It019,1,Morgan,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+70,ORD051,"2024-02-12 12:44:11",It020,1,Harper,in,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+71,ORD052,"2024-02-12 12:47:24",It021,1,Cameron,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+72,ORD053,"2024-02-12 12:50:37",It014,1,Avery,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+73,ORD054,"2024-02-12 12:53:49",It016,1,Quinn,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+74,ORD055,"2024-02-12 12:56:15",It023,1,Taylor,out,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+75,ORD056,"2024-02-12 12:59:28",It020,1,Jamie,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+76,ORD057,"2024-02-12 13:02:42",It013,1,Riley,in,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+77,ORD058,"2024-02-12 13:05:54",It001,1,Alex,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+78,ORD059,"2024-02-12 13:08:06",It003,1,Casey,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+79,ORD060,"2024-02-12 13:11:19",It008,1,Brooke,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+80,ORD061,"2024-02-12 13:13:31",It002,1,Harper,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+81,ORD061,"2024-02-12 13:13:43",It007,1,Harper,,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+82,ORD062,"2024-02-12 13:15:56",It019,1,Jordan,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+83,ORD063,"2024-02-12 13:17:08",It021,1,Avery,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+84,ORD063,"2024-02-12 13:17:08",It005,1,Avery,,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+85,ORD063,"2024-02-12 13:17:08",It014,1,Avery,,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+86,ORD064,"2024-02-12 13:20:47",It004,1,Casey,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+87,ORD064,"2024-02-12 13:20:47",It003,1,Casey,,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+88,ORD065,"2024-02-12 13:22:12",It012,1,Taylor,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+89,ORD065,"2024-02-12 13:22:12",It009,1,Taylor,,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+90,ORD066,"2024-02-12 13:25:38",It018,1,Riley,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+91,ORD066,"2024-02-12 13:25:02",It022,1,Riley,,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+92,ORD067,"2024-02-12 13:27:14",It011,1,Jamie,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+93,ORD067,"2024-02-12 13:27:14",It015,1,Jamie,,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+94,ORD068,"2024-02-12 13:30:38",It006,1,Morgan,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+95,ORD068,"2024-02-12 13:30:38",It022,1,Morgan,,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+96,ORD069,"2024-02-12 13:32:57",It010,1,Quinn,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+97,ORD069,"2024-02-12 13:32:57",It024,1,Quinn,,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+98,ORD070,"2024-02-12 13:35:21",It001,1,Peyton,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+99,ORD070,"2024-02-12 13:35:21",It017,1,Peyton,,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+100,ORD078,"2024-02-12 13:55:45",It020,1,Alex,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+101,ORD079,"2024-02-12 14:05:16",It021,1,Harper,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+102,ORD080,"2024-02-12 14:17:28",It004,1,Taylor,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+103,ORD080,"2024-02-12 14:17:28",It013,1,Taylor,,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+104,ORD081,"2024-02-12 14:30:51",It018,1,Jordan,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+105,ORD082,"2024-02-12 14:45:04",It007,1,Casey,in,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+106,ORD082,"2024-02-12 14:45:04",It011,1,Casey,,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+107,ORD083,"2024-02-12 15:00:29",It013,1,Riley,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+108,ORD084,"2024-02-12 15:20:42",It009,1,Jamie,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+109,ORD084,"2024-02-12 15:20:42",It003,1,Jamie,,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+110,ORD085,"2024-02-12 15:40:08",It014,1,Morgan,out,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+111,ORD085,"2024-02-12 15:40:12",It022,1,Morgan,,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+112,ORD086,"2024-02-12 16:00:23",It005,1,Brooke,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+113,ORD087,"2024-02-12 16:25:34",It017,1,Avery,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+114,ORD088,"2024-02-12 16:50:45",It012,1,Quinn,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+115,ORD089,"2024-02-12 17:00:45",It001,1,Sam,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+116,ORD090,"2024-02-13 07:14:00",It002,1,Anna,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+117,ORD091,"2024-02-13 07:19:00",It004,1,Chris,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+118,ORD091,"2024-02-13 07:19:00",It028,1,Chris,n/a,NULL,NULL,NULL,NULL,NULL
+119,ORD092,"2024-02-13 07:24:00",It017,1,Pat,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+120,ORD093,"2024-02-13 07:30:00",It023,1,Alex,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+121,ORD093,"2024-02-13 07:30:00",It011,1,Alex,n/a,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+122,ORD094,"2024-02-13 07:35:00",It006,1,Jordan,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+123,ORD095,"2024-02-13 07:40:00",It021,1,Taylor,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+124,ORD096,"2024-02-13 07:45:00",It015,1,Casey,out,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+125,ORD097,"2024-02-13 07:50:00",It008,1,Jamie,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+126,ORD097,"2024-02-13 07:50:00",It024,1,Jamie,n/a,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+127,ORD098,"2024-02-13 07:56:00",It001,1,Morgan,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+128,ORD099,"2024-02-13 08:01:00",It019,1,Riley,in,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+129,ORD100,"2024-02-13 08:06:00",It003,1,Cameron,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+130,ORD100,"2024-02-13 08:06:00",It027,1,Cameron,n/a,NULL,NULL,NULL,NULL,NULL
+131,ORD101,"2024-02-13 08:11:00",It022,1,Quinn,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+132,ORD102,"2024-02-13 08:17:00",It018,1,Peyton,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+133,ORD103,"2024-02-13 08:22:00",It005,1,Brooke,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+134,ORD103,"2024-02-13 08:22:00",It012,1,Brooke,n/a,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+135,ORD104,"2024-02-13 08:27:00",It010,1,Sam,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+136,ORD105,"2024-02-13 08:32:00",It007,1,Alex,in,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+137,ORD106,"2024-02-13 08:38:00",It026,1,Pat,out,NULL,NULL,NULL,NULL,NULL
+138,ORD106,"2024-02-13 08:38:00",It020,1,Pat,n/a,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+139,ORD107,"2024-02-13 08:43:00",It014,1,Chris,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+140,ORD108,"2024-02-13 08:48:00",It009,1,Jordan,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+141,ORD109,"2024-02-13 08:53:00",It002,1,Taylor,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+142,ORD109,"2024-02-13 08:53:00",It016,1,Taylor,n/a,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+143,ORD110,"2024-02-13 08:58:00",It013,1,Casey,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+144,ORD111,"2024-02-13 09:04:00",It025,1,Jamie,in,NULL,NULL,NULL,NULL,NULL
+145,ORD112,"2024-02-13 09:09:00",It004,1,Morgan,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+146,ORD113,"2024-02-13 09:14:00",It021,1,Riley,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+147,ORD114,"2024-02-13 09:19:00",It006,1,Cameron,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+148,ORD115,"2024-02-13 09:25:00",It019,1,Quinn,in,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+149,ORD116,"2024-02-13 09:30:00",It003,1,Peyton,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+150,ORD117,"2024-02-13 09:35:00",It022,1,Brooke,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+151,ORD117,"2024-02-13 09:35:00",It012,1,Brooke,n/a,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+152,ORD118,"2024-02-13 09:40:00",It018,1,Sam,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+153,ORD119,"2024-02-13 09:46:00",It005,1,Alex,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+154,ORD120,"2024-02-13 09:51:00",It026,1,Pat,out,NULL,NULL,NULL,NULL,NULL
+155,ORD121,"2024-02-13 09:56:00",It014,1,Chris,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+156,ORD122,"2024-02-13 10:01:00",It009,1,Jordan,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+157,ORD123,"2024-02-13 10:16:00",It027,1,Morgan,in,NULL,NULL,NULL,NULL,NULL
+158,ORD124,"2024-02-13 10:31:00",It005,1,Casey,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+159,ORD125,"2024-02-13 10:45:00",It014,1,Riley,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+160,ORD125,"2024-02-13 10:45:00",It023,1,Riley,n/a,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+161,ORD126,"2024-02-13 11:00:00",It018,1,Jamie,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+162,ORD127,"2024-02-13 11:15:00",It002,1,Alex,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+163,ORD128,"2024-02-13 11:29:00",It011,1,Sam,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+164,ORD129,"2024-02-13 11:43:00",It026,1,Quinn,in,NULL,NULL,NULL,NULL,NULL
+165,ORD129,"2024-02-13 11:43:00",It020,1,Quinn,n/a,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+166,ORD130,"2024-02-13 11:57:00",It008,1,Pat,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+167,ORD131,"2024-02-13 12:03:00",It022,1,Chris,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+168,ORD132,"2024-02-13 12:10:00",It004,1,Alex,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+169,ORD133,"2024-02-13 12:17:00",It015,1,Jordan,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+170,ORD134,"2024-02-13 12:24:00",It026,1,Morgan,out,NULL,NULL,NULL,NULL,NULL
+171,ORD134,"2024-02-13 12:24:00",It018,1,Morgan,n/a,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+172,ORD135,"2024-02-13 12:31:00",It007,1,Taylor,in,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+173,ORD136,"2024-02-13 12:38:00",It020,1,Casey,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+174,ORD137,"2024-02-13 12:45:00",It003,1,Jamie,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+175,ORD138,"2024-02-13 12:52:00",It016,1,Riley,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+176,ORD139,"2024-02-13 12:59:00",It009,1,Cameron,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+177,ORD139,"2024-02-13 12:59:00",It025,1,Cameron,n/a,NULL,NULL,NULL,NULL,NULL
+178,ORD140,"2024-02-13 13:06:00",It012,1,Quinn,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+179,ORD141,"2024-02-13 13:13:00",It001,1,Peyton,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+180,ORD142,"2024-02-13 13:20:00",It019,1,Brooke,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+181,ORD143,"2024-02-13 13:27:00",It005,1,Sam,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+182,ORD143,"2024-02-13 13:27:00",It011,1,Sam,n/a,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+183,ORD144,"2024-02-13 13:34:00",It028,1,Pat,out,NULL,NULL,NULL,NULL,NULL
+184,ORD145,"2024-02-13 13:41:00",It010,1,Alex,in,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+185,ORD146,"2024-02-13 13:48:00",It024,1,Chris,out,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+186,ORD147,"2024-02-13 13:55:00",It017,1,Jordan,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+187,ORD147,"2024-02-13 13:55:00",It021,1,Jordan,n/a,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+188,ORD148,"2024-02-13 14:03:00",It006,1,Morgan,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+189,ORD149,"2024-02-13 14:10:00",It023,1,Taylor,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+190,ORD150,"2024-02-13 14:30:00",It002,1,Jordan,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+191,ORD151,"2024-02-13 14:50:00",It018,1,Chris,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+192,ORD152,"2024-02-13 15:10:00",It005,1,Alex,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+193,ORD153,"2024-02-13 15:30:00",It027,1,Morgan,in,NULL,NULL,NULL,NULL,NULL
+194,ORD154,"2024-02-13 15:50:00",It011,1,Taylor,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+195,ORD155,"2024-02-13 16:09:00",It004,1,Casey,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+196,ORD155,"2024-02-13 16:09:00",It028,1,Casey,n/a,NULL,NULL,NULL,NULL,NULL
+197,ORD156,"2024-02-13 16:29:00",It014,1,Jamie,out,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+198,ORD157,"2024-02-13 16:49:00",It021,1,Riley,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+199,ORD158,"2024-02-13 17:00:00",It007,1,Cameron,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+200,ORD159,"2024-02-14 07:06:00",It001,1,Elvis,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+201,ORD160,"2024-02-14 07:13:00",It014,1,Jordan,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+202,ORD161,"2024-02-14 07:20:00",It026,1,Chris,out,NULL,NULL,NULL,NULL,NULL
+203,ORD162,"2024-02-14 07:27:00",It008,1,Alex,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+204,ORD162,"2024-02-14 07:27:00",It022,1,Alex,n/a,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+205,ORD163,"2024-02-14 07:34:00",It017,1,Morgan,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+206,ORD164,"2024-02-14 07:41:00",It005,1,Taylor,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+207,ORD165,"2024-02-14 07:49:00",It023,1,Casey,out,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+208,ORD166,"2024-02-14 07:56:00",It011,1,Jamie,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+209,ORD167,"2024-02-14 08:03:00",It019,1,Riley,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+210,ORD168,"2024-02-14 08:10:00",It003,1,Cameron,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+211,ORD169,"2024-02-14 08:17:00",It027,1,Quinn,out,NULL,NULL,NULL,NULL,NULL
+212,ORD170,"2024-02-14 08:24:00",It006,1,Peyton,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+213,ORD171,"2024-02-14 08:31:00",It020,1,Brooke,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+214,ORD172,"2024-02-14 08:38:00",It010,1,Sam,in,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+215,ORD173,"2024-02-14 08:45:00",It025,1,Pat,out,NULL,NULL,NULL,NULL,NULL
+216,ORD173,"2024-02-14 08:45:00",It007,1,Pat,n/a,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+217,ORD174,"2024-02-14 08:53:00",It013,1,Alex,in,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+218,ORD175,"2024-02-14 09:00:00",It028,1,Jordan,out,NULL,NULL,NULL,NULL,NULL
+219,ORD176,"2024-02-14 09:07:00",It004,1,Chris,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+220,ORD177,"2024-02-14 09:14:00",It016,1,Morgan,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+221,ORD178,"2024-02-14 09:21:00",It024,1,Taylor,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+222,ORD179,"2024-02-14 09:28:00",It012,1,Casey,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+223,ORD180,"2024-02-14 09:35:00",It009,1,Jamie,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+224,ORD181,"2024-02-14 09:42:00",It002,1,Riley,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+225,ORD182,"2024-02-14 09:49:00",It018,1,Cameron,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+226,ORD183,"2024-02-14 09:57:00",It021,1,Quinn,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+227,ORD184,"2024-02-14 10:04:00",It015,1,Brooke,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+228,ORD185,"2024-02-14 10:21:00",It007,1,Sam,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+229,ORD186,"2024-02-14 10:38:00",It028,1,Pat,in,NULL,NULL,NULL,NULL,NULL
+230,ORD187,"2024-02-14 10:55:00",It001,1,Alex,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+231,ORD188,"2024-02-14 11:12:00",It024,1,Jordan,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+232,ORD189,"2024-02-14 11:29:00",It018,1,Chris,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+233,ORD189,"2024-02-14 11:29:00",It022,1,Chris,n/a,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+234,ORD190,"2024-02-14 11:46:00",It012,1,Morgan,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+235,ORD191,"2024-02-14 12:03:00",It003,1,Taylor,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+236,ORD192,"2024-02-14 12:10:00",It016,1,Casey,in,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+237,ORD193,"2024-02-14 12:17:00",It009,1,Jamie,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+238,ORD194,"2024-02-14 12:24:00",It027,1,Riley,in,NULL,NULL,NULL,NULL,NULL
+239,ORD195,"2024-02-14 12:31:00",It005,1,Cameron,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+240,ORD195,"2024-02-14 12:31:00",It011,1,Cameron,n/a,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+241,ORD196,"2024-02-14 12:38:00",It014,1,Quinn,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+242,ORD197,"2024-02-14 12:45:00",It020,1,Peyton,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+243,ORD198,"2024-02-14 12:52:00",It006,1,Brooke,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+244,ORD199,"2024-02-14 13:00:00",It022,1,Sam,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+245,ORD200,"2024-02-14 13:08:00",It017,1,Pat,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+246,ORD201,"2024-02-14 13:15:00",It010,1,Alex,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+247,ORD202,"2024-02-14 13:22:00",It024,1,Jordan,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+248,ORD202,"2024-02-14 13:22:00",It008,1,Jordan,n/a,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+249,ORD203,"2024-02-14 13:29:00",It001,1,Chris,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+250,ORD204,"2024-02-14 13:36:00",It019,1,Morgan,in,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+251,ORD205,"2024-02-14 13:43:00",It013,1,Taylor,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+252,ORD206,"2024-02-14 13:50:00",It026,1,Casey,in,NULL,NULL,NULL,NULL,NULL
+253,ORD207,"2024-02-14 13:57:00",It004,1,Jamie,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+254,ORD208,"2024-02-14 14:05:00",It021,1,Riley,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+255,ORD208,"2024-02-14 14:05:00",It002,1,Riley,n/a,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+256,ORD209,"2024-02-14 14:12:00",It018,1,Cameron,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+257,ORD210,"2024-02-14 14:19:00",It025,1,Quinn,in,NULL,NULL,NULL,NULL,NULL
+258,ORD211,"2024-02-14 14:26:00",It007,1,Peyton,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+259,ORD212,"2024-02-14 14:33:00",It012,1,Brooke,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+260,ORD213,"2024-02-14 14:40:00",It028,1,Sam,out,NULL,NULL,NULL,NULL,NULL
+261,ORD214,"2024-02-14 14:47:00",It015,1,Pat,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+262,ORD215,"2024-02-14 15:04:00",It002,1,Alex,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+263,ORD216,"2024-02-14 15:22:00",It024,1,Jordan,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+264,ORD217,"2024-02-14 15:41:00",It018,1,Chris,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+265,ORD218,"2024-02-14 15:59:00",It011,1,Morgan,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+266,ORD219,"2024-02-14 16:17:00",It005,1,Taylor,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+267,ORD220,"2024-02-14 16:35:00",It017,1,Casey,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+268,ORD221,"2024-02-14 16:53:00",It009,1,Jamie,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+269,ORD222,"2024-02-14 17:00:00",It026,1,Riley,in,NULL,NULL,NULL,NULL,NULL
+270,ORD223,"2024-02-15 07:02:00",It003,1,Anna,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+271,ORD224,"2024-02-15 07:09:00",It017,1,Bob,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+272,ORD224,"2024-02-15 07:09:00",It021,1,Bob,n/a,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+273,ORD225,"2024-02-15 07:16:00",It006,1,Carol,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+274,ORD226,"2024-02-15 07:23:00",It028,1,Dave,in,NULL,NULL,NULL,NULL,NULL
+275,ORD227,"2024-02-15 07:30:00",It011,1,Eve,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+276,ORD227,"2024-02-15 07:30:00",It014,1,Eve,n/a,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+277,ORD228,"2024-02-15 07:37:00",It001,1,Frank,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+278,ORD229,"2024-02-15 07:44:00",It019,1,Grace,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+279,ORD230,"2024-02-15 07:52:00",It024,1,Helen,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+280,ORD231,"2024-02-15 07:59:00",It005,1,Ian,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+281,ORD231,"2024-02-15 07:59:00",It008,1,Ian,n/a,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+282,ORD232,"2024-02-15 08:06:00",It010,1,Jenny,in,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+283,ORD233,"2024-02-15 08:13:00",It013,1,Kyle,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+284,ORD234,"2024-02-15 08:20:00",It016,1,Laura,in,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+285,ORD234,"2024-02-15 08:20:00",It022,1,Laura,n/a,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+286,ORD235,"2024-02-15 08:27:00",It025,1,Mike,out,NULL,NULL,NULL,NULL,NULL
+287,ORD236,"2024-02-15 08:34:00",It007,1,Nina,in,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+288,ORD237,"2024-02-15 08:41:00",It018,1,Oscar,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+289,ORD238,"2024-02-15 08:48:00",It004,1,Paula,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+290,ORD238,"2024-02-15 08:48:00",It027,1,Paula,n/a,NULL,NULL,NULL,NULL,NULL
+291,ORD239,"2024-02-15 08:56:00",It009,1,Quinn,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+292,ORD240,"2024-02-15 09:03:00",It002,1,Rachel,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+293,ORD241,"2024-02-15 09:10:00",It020,1,Steve,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+294,ORD242,"2024-02-15 09:17:00",It012,1,Tina,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+295,ORD243,"2024-02-15 09:24:00",It015,1,Umar,out,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+296,ORD243,"2024-02-15 09:24:00",It026,1,Umar,n/a,NULL,NULL,NULL,NULL,NULL
+297,ORD244,"2024-02-15 09:31:00",It023,1,Victor,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+298,ORD245,"2024-02-15 09:38:00",It008,1,Wendy,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+299,ORD246,"2024-02-15 09:48:00",It012,1,Alice,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+300,ORD247,"2024-02-15 10:04:00",It021,1,Bob,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+301,ORD248,"2024-02-15 10:20:00",It004,1,Charlie,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+302,ORD249,"2024-02-15 10:36:00",It027,1,Dana,out,NULL,NULL,NULL,NULL,NULL
+303,ORD250,"2024-02-15 10:52:00",It009,1,Evan,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+304,ORD251,"2024-02-15 11:08:00",It018,1,Fiona,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+305,ORD251,"2024-02-15 11:08:00",It022,1,Fiona,n/a,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+306,ORD252,"2024-02-15 11:24:00",It006,1,George,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+307,ORD253,"2024-02-15 11:40:00",It016,1,Hannah,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+308,ORD254,"2024-02-15 11:56:00",It001,1,Ian,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+309,ORD255,"2024-02-15 12:06:00",It007,1,Jake,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+310,ORD256,"2024-02-15 12:12:00",It019,1,Karen,in,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+311,ORD256,"2024-02-15 12:12:00",It023,1,Karen,n/a,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+312,ORD257,"2024-02-15 12:18:00",It002,1,Leo,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+313,ORD258,"2024-02-15 12:24:00",It015,1,Mia,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+314,ORD259,"2024-02-15 12:30:00",It010,1,Noah,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+315,ORD260,"2024-02-15 12:36:00",It026,1,Olivia,in,NULL,NULL,NULL,NULL,NULL
+316,ORD261,"2024-02-15 12:42:00",It005,1,Paul,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+317,ORD262,"2024-02-15 12:48:00",It013,1,Quinn,in,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+318,ORD263,"2024-02-15 12:54:00",It020,1,Riley,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+319,ORD263,"2024-02-15 12:54:00",It008,1,Riley,n/a,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+320,ORD264,"2024-02-15 13:00:00",It024,1,Sam,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+321,ORD265,"2024-02-15 13:06:00",It011,1,Tina,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+322,ORD266,"2024-02-15 13:12:00",It017,1,Umar,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+323,ORD267,"2024-02-15 13:18:00",It003,1,Victor,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+324,ORD268,"2024-02-15 13:24:00",It014,1,Wendy,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+325,ORD269,"2024-02-15 13:30:00",It001,1,Xavier,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+326,ORD270,"2024-02-15 13:36:00",It009,1,Yara,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+327,ORD271,"2024-02-15 13:42:00",It018,1,Zoe,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+328,ORD272,"2024-02-15 13:48:00",It004,1,Amy,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+329,ORD272,"2024-02-15 13:48:00",It028,1,Amy,n/a,NULL,NULL,NULL,NULL,NULL
+330,ORD273,"2024-02-15 13:54:00",It021,1,Brad,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+331,ORD274,"2024-02-15 14:00:00",It006,1,Cindy,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+332,ORD275,"2024-02-15 14:06:00",It022,1,Derek,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+333,ORD276,"2024-02-15 14:12:00",It012,1,Eliza,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+334,ORD277,"2024-02-15 14:18:00",It027,1,Frank,out,NULL,NULL,NULL,NULL,NULL
+335,ORD278,"2024-02-15 14:24:00",It016,1,Gigi,in,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+336,ORD279,"2024-02-15 14:30:00",It025,1,Hugo,out,NULL,NULL,NULL,NULL,NULL
+337,ORD280,"2024-02-15 14:36:00",It008,1,Ivy,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+338,ORD281,"2024-02-15 14:52:00",It002,1,Jake,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+339,ORD282,"2024-02-15 15:08:00",It017,1,Kara,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+340,ORD283,"2024-02-15 15:24:00",It011,1,Liam,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+341,ORD284,"2024-02-15 15:40:00",It024,1,Mia,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+342,ORD285,"2024-02-15 15:56:00",It005,1,Noel,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+343,ORD286,"2024-02-15 16:12:00",It020,1,Ophelia,in,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+344,ORD287,"2024-02-15 16:28:00",It014,1,Pablo,out,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+345,ORD288,"2024-02-15 16:44:00",It027,1,Quinn,in,NULL,NULL,NULL,NULL,NULL
+346,ORD289,"2024-02-15 17:00:00",It009,1,Rita,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+347,ORD290,"2024-02-16 07:08:00",It005,1,Sarah,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+348,ORD291,"2024-02-16 07:15:00",It012,1,Mike,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+349,ORD292,"2024-02-16 07:22:00",It018,1,Lucy,n/a,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+350,ORD292,"2024-02-16 07:22:00",It022,1,Lucy,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+351,ORD293,"2024-02-16 07:29:00",It004,1,Tony,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+352,ORD294,"2024-02-16 07:36:00",It027,1,Fiona,out,NULL,NULL,NULL,NULL,NULL
+353,ORD295,"2024-02-16 07:43:00",It011,1,Greg,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+354,ORD296,"2024-02-16 07:51:00",It015,1,Hannah,out,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+355,ORD297,"2024-02-16 07:58:00",It001,1,Ivan,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+356,ORD297,"2024-02-16 07:58:00",It006,1,Ivan,n/a,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+357,ORD298,"2024-02-16 08:05:00",It019,1,Julia,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+358,ORD299,"2024-02-16 08:12:00",It023,1,Karl,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+359,ORD300,"2024-02-16 08:19:00",It009,1,Leah,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+360,ORD301,"2024-02-16 08:26:00",It003,1,Max,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+361,ORD301,"2024-02-16 08:26:00",It020,1,Max,n/a,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+362,ORD302,"2024-02-16 08:33:00",It007,1,Nora,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+363,ORD303,"2024-02-16 08:40:00",It013,1,Oscar,in,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+364,ORD304,"2024-02-16 08:48:00",It026,1,Paula,out,NULL,NULL,NULL,NULL,NULL
+365,ORD305,"2024-02-16 08:55:00",It010,1,Quinn,in,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+366,ORD306,"2024-02-16 09:02:00",It008,1,Rita,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+367,ORD307,"2024-02-16 09:09:00",It002,1,Steve,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+368,ORD307,"2024-02-16 09:09:00",It014,1,Steve,n/a,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+369,ORD308,"2024-02-16 09:16:00",It017,1,Tina,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+370,ORD309,"2024-02-16 09:23:00",It024,1,Uma,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+371,ORD310,"2024-02-16 09:30:00",It021,1,Victor,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+372,ORD311,"2024-02-16 09:38:00",It016,1,Wendy,in,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+373,ORD312,"2024-02-16 09:45:00",It028,1,Xander,out,NULL,NULL,NULL,NULL,NULL
+374,ORD313,"2024-02-16 09:52:00",It025,1,Yara,in,NULL,NULL,NULL,NULL,NULL
+375,ORD314,"2024-02-16 09:59:00",It001,1,Zack,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+376,ORD315,"2024-02-16 10:05:00",It003,1,Alice,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+377,ORD316,"2024-02-16 10:21:00",It020,1,Ben,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+378,ORD317,"2024-02-16 10:38:00",It008,1,Carla,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+379,ORD318,"2024-02-16 10:54:00",It017,1,David,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+380,ORD318,"2024-02-16 10:54:00",It025,1,David,n/a,NULL,NULL,NULL,NULL,NULL
+381,ORD319,"2024-02-16 11:10:00",It012,1,Elena,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+382,ORD320,"2024-02-16 11:26:00",It006,1,Frank,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+383,ORD321,"2024-02-16 11:43:00",It024,1,Gina,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+384,ORD322,"2024-02-16 11:59:00",It011,1,Harry,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+385,ORD323,"2024-02-16 12:06:00",It022,1,Iris,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+386,ORD324,"2024-02-16 12:12:00",It005,1,Jack,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+387,ORD325,"2024-02-16 12:19:00",It009,1,Kiera,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+388,ORD325,"2024-02-16 12:19:00",It013,1,Kiera,n/a,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+389,ORD326,"2024-02-16 12:25:00",It018,1,Luke,out,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+390,ORD327,"2024-02-16 12:32:00",It001,1,Mia,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+391,ORD328,"2024-02-16 12:38:00",It026,1,Nia,out,NULL,NULL,NULL,NULL,NULL
+392,ORD329,"2024-02-16 12:45:00",It004,1,Oscar,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+393,ORD330,"2024-02-16 12:51:00",It010,1,Priya,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+394,ORD331,"2024-02-16 12:58:00",It017,1,Quinn,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+395,ORD331,"2024-02-16 12:58:00",It023,1,Quinn,n/a,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+396,ORD332,"2024-02-16 13:04:00",It006,1,Ravi,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+397,ORD333,"2024-02-16 13:11:00",It014,1,Sarah,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+398,ORD334,"2024-02-16 13:17:00",It027,1,Tim,out,NULL,NULL,NULL,NULL,NULL
+399,ORD335,"2024-02-16 13:24:00",It008,1,Uma,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+400,ORD336,"2024-02-16 13:30:00",It020,1,Vicky,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+401,ORD337,"2024-02-16 13:37:00",It012,1,Wendy,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+402,ORD338,"2024-02-16 13:43:00",It019,1,Xian,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+403,ORD339,"2024-02-16 13:50:00",It003,1,Yara,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+404,ORD340,"2024-02-16 13:56:00",It007,1,Zack,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+405,ORD341,"2024-02-16 14:03:00",It015,1,Amelia,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+406,ORD341,"2024-02-16 14:03:00",It024,1,Amelia,n/a,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+407,ORD342,"2024-02-16 14:09:00",It002,1,Brad,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+408,ORD343,"2024-02-16 14:16:00",It021,1,Cindy,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+409,ORD344,"2024-02-16 14:22:00",It011,1,Derek,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+410,ORD345,"2024-02-16 14:29:00",It028,1,Eliza,in,NULL,NULL,NULL,NULL,NULL
+411,ORD346,"2024-02-16 14:35:00",It016,1,Faisal,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+412,ORD347,"2024-02-16 14:42:00",It005,1,Georgia,in,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+413,ORD348,"2024-02-16 14:48:00",It022,1,Haris,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+414,ORD349,"2024-02-16 14:55:00",It009,1,Ida,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+415,ORD350,"2024-02-16 15:01:00",It025,1,Jaya,out,NULL,NULL,NULL,NULL,NULL
+416,ORD351,"2024-02-16 15:08:00",It018,1,Kurt,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+417,ORD352,"2024-02-16 15:14:00",It003,1,Lana,out,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+418,ORD353,"2024-02-16 15:21:00",It014,1,Moe,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+419,ORD354,"2024-02-16 15:34:00",It022,1,Ian,out,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+420,ORD355,"2024-02-16 15:54:00",It009,1,Jenna,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+421,ORD356,"2024-02-16 16:14:00",It005,1,Keith,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+422,ORD357,"2024-02-16 16:34:00",It018,1,Lila,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+423,ORD358,"2024-02-16 16:54:00",It001,1,Mason,out,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+424,ORD359,"2024-02-16 17:00:00",It014,1,Nora,in,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+425,ORD360,"2024-02-17 07:03:00",It001,1,Susie,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+426,ORD361,"2024-02-17 07:08:00",It017,1,Tom,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+427,ORD361,"2024-02-17 07:08:00",It023,1,Tom,n/a,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+428,ORD362,"2024-02-17 07:13:00",It004,1,Ulla,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+429,ORD363,"2024-02-17 07:18:00",It026,1,Victor,out,NULL,NULL,NULL,NULL,NULL
+430,ORD363,"2024-02-17 07:18:00",It020,1,Victor,n/a,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+431,ORD364,"2024-02-17 07:23:00",It009,1,Wendy,in,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+432,ORD365,"2024-02-17 07:28:00",It014,1,Xavier,out,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+433,ORD365,"2024-02-17 07:28:00",It007,1,Xavier,n/a,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+434,ORD366,"2024-02-17 07:34:00",It022,1,Yara,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+435,ORD367,"2024-02-17 07:39:00",It005,1,Zoe,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+436,ORD368,"2024-02-17 07:44:00",It012,1,Amy,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+437,ORD368,"2024-02-17 07:44:00",It018,1,Amy,n/a,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+438,ORD369,"2024-02-17 07:49:00",It027,1,Ben,out,NULL,NULL,NULL,NULL,NULL
+439,ORD370,"2024-02-17 07:54:00",It003,1,Cara,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+440,ORD371,"2024-02-17 07:59:00",It016,1,Dan,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+441,ORD371,"2024-02-17 07:59:00",It008,1,Dan,n/a,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+442,ORD372,"2024-02-17 08:04:00",It011,1,Eve,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+443,ORD373,"2024-02-17 08:10:00",It024,1,Finn,out,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+444,ORD374,"2024-02-17 08:15:00",It006,1,Gia,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+445,ORD374,"2024-02-17 08:15:00",It021,1,Gia,n/a,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+446,ORD375,"2024-02-17 08:20:00",It010,1,Hal,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+447,ORD376,"2024-02-17 08:25:00",It025,1,Ida,in,NULL,NULL,NULL,NULL,NULL
+448,ORD377,"2024-02-17 08:30:00",It013,1,Jed,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+449,ORD377,"2024-02-17 08:30:00",It019,1,Jed,n/a,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+450,ORD378,"2024-02-17 08:35:00",It002,1,Kip,in,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+451,ORD379,"2024-02-17 08:40:00",It028,1,Lia,out,NULL,NULL,NULL,NULL,NULL
+452,ORD380,"2024-02-17 08:45:00",It015,1,Moe,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+453,ORD381,"2024-02-17 08:51:00",It007,1,Nia,out,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+454,ORD381,"2024-02-17 08:51:00",It023,1,Nia,n/a,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+455,ORD382,"2024-02-17 08:56:00",It001,1,Oli,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+456,ORD383,"2024-02-17 09:01:00",It017,1,Pam,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+457,ORD384,"2024-02-17 09:06:00",It004,1,Quin,in,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+458,ORD384,"2024-02-17 09:06:00",It020,1,Quin,n/a,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+459,ORD385,"2024-02-17 09:11:00",It009,1,Rae,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+460,ORD386,"2024-02-17 09:16:00",It026,1,Sam,in,NULL,NULL,NULL,NULL,NULL
+461,ORD387,"2024-02-17 09:21:00",It012,1,Ty,out,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+462,ORD388,"2024-02-17 09:27:00",It018,1,Uma,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+463,ORD388,"2024-02-17 09:27:00",It022,1,Uma,n/a,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+464,ORD389,"2024-02-17 09:32:00",It005,1,Val,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+465,ORD390,"2024-02-17 09:37:00",It011,1,Wes,in,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+466,ORD391,"2024-02-17 09:42:00",It027,1,Xi,out,NULL,NULL,NULL,NULL,NULL
+467,ORD392,"2024-02-17 09:47:00",It003,1,Yol,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+468,ORD393,"2024-02-17 09:52:00",It016,1,Zed,out,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+469,ORD393,"2024-02-17 09:52:00",It024,1,Zed,n/a,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+470,ORD394,"2024-02-17 09:57:00",It008,1,Amy,in,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+471,ORD394,"2024-02-17 10:08:00",It016,1,Zack,n/a,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+472,ORD395,"2024-02-17 10:24:00",It024,1,Alex,in,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+473,ORD395,"2024-02-17 10:24:00",It008,1,Alex,n/a,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+474,ORD396,"2024-02-17 10:40:00",It002,1,Brooke,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+475,ORD397,"2024-02-17 10:56:00",It010,1,Charles,in,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+476,ORD398,"2024-02-17 11:12:00",It005,1,Dana,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+477,ORD399,"2024-02-17 11:28:00",It027,1,Evan,in,NULL,NULL,NULL,NULL,NULL
+478,ORD400,"2024-02-17 11:44:00",It013,1,Fiona,out,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+479,ORD401,"2024-02-17 12:00:00",It021,1,George,in,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+480,ORD402,"2024-02-17 12:16:00",It017,1,Heidi,out,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+481,ORD403,"2024-02-17 12:00:00",It022,1,Ivy,in,CDR-LMN-LG,Lemonade,"Cold Drinks",Large,3.75
+482,ORD404,"2024-02-17 12:07:00",It004,1,Jack,out,HDR-LAT-LG,Latte,"Hot Drinks",Large,3.75
+483,ORD404,"2024-02-17 12:07:00",It006,1,Jack,n/a,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+484,ORD405,"2024-02-17 12:14:00",It018,1,Kiera,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+485,ORD406,"2024-02-17 12:21:00",It011,1,Leo,out,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+486,ORD407,"2024-02-17 12:28:00",It023,1,Mia,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+487,ORD407,"2024-02-17 12:28:00",It025,1,Mia,n/a,NULL,NULL,NULL,NULL,NULL
+488,ORD408,"2024-02-17 12:35:00",It009,1,Noah,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+489,ORD409,"2024-02-17 12:42:00",It015,1,Olivia,in,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+490,ORD410,"2024-02-17 12:49:00",It027,1,Pete,out,NULL,NULL,NULL,NULL,NULL
+491,ORD411,"2024-02-17 12:56:00",It003,1,Quinn,in,HDR-LAT-MD,Latte,"Hot Drinks",Medium,3.45
+492,ORD412,"2024-02-17 13:03:00",It020,1,Rachel,out,CDR-ICT-LG,"Iced Tea","Cold Drinks",Large,3.55
+493,ORD412,"2024-02-17 13:03:00",It014,1,Rachel,n/a,HDR-HCH-LG,"Hot Chocolate","Hot Drinks",Large,4.60
+494,ORD413,"2024-02-17 13:10:00",It001,1,Sam,in,HDR-CAP-MD,Cappuccino,"Hot Drinks",Medium,3.45
+495,ORD414,"2024-02-17 13:17:00",It008,1,Tina,out,HDR-ESP,Espresso,"Hot Drinks",N/A,2.15
+496,ORD415,"2024-02-17 13:24:00",It017,1,Umar,in,CDR-CMO-MD,"Cold Mocha","Cold Drinks",Medium,4.00
+497,ORD416,"2024-02-17 13:31:00",It005,1,Vivian,out,HDR-FLT,"Flat White","Hot Drinks",N/A,3.15
+498,ORD417,"2024-02-17 13:38:00",It012,1,Wendy,in,HDR-WMO-LG,"White Mocha","Hot Drinks",Large,4.70
+499,ORD417,"2024-02-17 13:38:00",It024,1,Wendy,n/a,SNK-SSM,"Sandwich Salami&Mozzarella",Snacks,N/A,5.50
+500,ORD418,"2024-02-17 13:45:00",It010,1,Xavier,out,HDR-MOC-LG,Mocha,"Hot Drinks",Large,4.60
+501,ORD419,"2024-02-17 13:52:00",It026,1,Yolanda,in,NULL,NULL,NULL,NULL,NULL
+502,ORD420,"2024-02-17 13:59:00",It019,1,Zack,out,CDR-ICT-MD,"Iced Tea","Cold Drinks",Medium,3.25
+503,ORD421,"2024-02-17 14:06:00",It007,1,Amelia,in,HDR-CRM-LG,"Caramel Macchiato","Hot Drinks",Large,4.60
+504,ORD422,"2024-02-17 14:13:00",It002,1,Brad,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+505,ORD423,"2024-02-17 14:20:00",It013,1,Chloe,in,HDR-HCH-MD,"Hot Chocolate","Hot Drinks",Medium,4.20
+506,ORD424,"2024-02-17 14:27:00",It021,1,Derek,out,CDR-LMN-MD,Lemonade,"Cold Drinks",Medium,3.35
+507,ORD424,"2024-02-17 14:27:00",It016,1,Derek,n/a,CDR-CCF-LG,"Cold Coffee","Cold Drinks",Large,3.75
+508,ORD425,"2024-02-17 14:34:00",It028,1,Eva,in,NULL,NULL,NULL,NULL,NULL
+509,ORD426,"2024-02-17 14:41:00",It009,1,Fred,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+510,ORD427,"2024-02-17 14:48:00",It006,1,Gina,in,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+511,ORD428,"2024-02-17 14:55:00",It023,1,Hugh,out,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+512,ORD429,"2024-02-17 15:02:00",It018,1,Iris,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+513,ORD429,"2024-02-17 15:02:00",It011,1,Iris,n/a,HDR-WMO-MD,"White Mocha","Hot Drinks",Medium,4.50
+514,ORD430,"2024-02-17 15:23:00",It015,1,Liam,out,CDR-CCF-MD,"Cold Coffee","Cold Drinks",Medium,3.45
+515,ORD431,"2024-02-17 15:39:00",It027,1,Mia,in,NULL,NULL,NULL,NULL,NULL
+516,ORD432,"2024-02-17 15:55:00",It009,1,Fred,out,HDR-MOC-MD,Mocha,"Hot Drinks",Medium,4.00
+517,ORD433,"2024-02-17 16:11:00",It023,1,Gina,in,SNK-SHC,"Sandwich Ham&Cheese",Snacks,N/A,5.60
+518,ORD434,"2024-02-17 16:27:00",It006,1,Hugh,out,HDR-CRM-MD,"Caramel Macchiato","Hot Drinks",Medium,4.20
+519,ORD435,"2024-02-17 16:43:00",It018,1,Iris,in,CDR-CMO-LG,"Cold Mocha","Cold Drinks",Large,4.60
+520,ORD436,"2024-02-17 16:59:00",It002,1,Jack,out,HDR-CAP-LG,Cappuccino,"Hot Drinks",Large,3.75
+521,ORD437,"2024-02-17 17:00:00",It026,1,Kiera,in,NULL,NULL,NULL,NULL,NULL

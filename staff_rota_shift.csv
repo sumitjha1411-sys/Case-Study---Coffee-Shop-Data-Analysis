@@ -1,0 +1,19 @@
+staff_full_name,staff_id,shift_id,day_of_week,start_time,end_time
+"Emma Johnson",ST001,SH009,Friday,07:00:00,13:00:00
+"Emma Johnson",ST001,SH005,Wednesday,07:00:00,13:00:00
+"Emma Johnson",ST001,SH002,Monday,13:00:00,17:00:00
+"Emma Johnson",ST001,SH001,Monday,07:00:00,13:00:00
+"Liam Smith",ST002,SH010,Friday,13:00:00,17:00:00
+"Liam Smith",ST002,SH009,Friday,07:00:00,13:00:00
+"Liam Smith",ST002,SH007,Thursday,07:00:00,13:00:00
+"Liam Smith",ST002,SH004,Tuesday,13:00:00,17:00:00
+"Liam Smith",ST002,SH003,Tuesday,07:00:00,13:00:00
+"Olivia Williams",ST003,SH011,Saturday,07:00:00,13:00:00
+"Olivia Williams",ST003,SH006,Wednesday,13:00:00,17:00:00
+"Olivia Williams",ST003,SH005,Wednesday,07:00:00,13:00:00
+"Olivia Williams",ST003,SH001,Monday,07:00:00,13:00:00
+"Noah Brown",ST004,SH012,Saturday,13:00:00,17:00:00
+"Noah Brown",ST004,SH011,Saturday,07:00:00,13:00:00
+"Noah Brown",ST004,SH008,Thursday,13:00:00,17:00:00
+"Noah Brown",ST004,SH007,Thursday,07:00:00,13:00:00
+"Noah Brown",ST004,SH003,Tuesday,07:00:00,13:00:00
