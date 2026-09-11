@@ -1,5 +1,6 @@
 The Coffee Shop Data dataset consists of several tables, each focusing on different aspects
 of the business:
+
 -- Orders: Records of customer orders, including order IDs, timestamps, item IDs,
 quantities, customer names, and whether the order was for dine-in or takeout.
 
